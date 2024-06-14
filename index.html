@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> practice of js</title>
+</head>
+
+<body style="background-color: wheat;">
+    <div style="text-align: center; margin-top: 2%;">
+        <h1>heading 1</h1>
+        <button onclick="document.getElementById('bulb').src='assect/images.jpeg'"> Turn on the button</button>
+
+        <img id="bulb" src="./assect/download.jpeg" alt="bulb" style="width: 20%;">
+
+        <button onclick=" document.getElementById('bulb').src='assect/download.jpeg'"> Turn off the button</button>
+    </div>
+    <!--  -->
+    <hr>
+    <!--change size and color  -->
+    <div style="text-align: center;" class="second">
+
+        <h1 id="set">change the color or font size and family</h1>
+        <button onclick='document.getElementById("set").style.color="green"'>change</button>
+    </div>
+    <!-- para hidden of show -->
+    <hr>
+    <div class="hide" style="text-align: center;">
+        <h1>Hide the Paragraph</h1>
+        <p id="hiden">Lorem ipsum,dolor sit amet consectetur adipisicing elit.Vitae, impedit. Lorem ipsum,dolor sit amet
+            consectetur adipisicing elit.Vitae, impedit. <br>Lorem ipsum,dolor sit amet consectetur adipisicing
+            elit.Vitae, impedit.</p>
+        <button onclick="document.getElementById('hiden').style.display='none'">Hide the text</button>
+        <button onclick="document.getElementById('hiden').style.display='block'">Show the text</button>
+
+    </div>
+    <hr>
+</body>
+
+</html>
